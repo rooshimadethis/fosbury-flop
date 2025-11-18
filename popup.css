@@ -1,4 +1,25 @@
-body {
-  width: 200px;
-  text-align: center;
+#paywalled-sites-list {
+  list-style-type: none;
+  padding: 0;
+}
+
+#paywalled-sites-list li {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 5px;
+  border-bottom: 1px solid #eee;
+}
+
+.delete-btn {
+  cursor: pointer;
+  border: none;
+  background: none;
+  font-size: 16px;
+}
+
+.delete-icon {
+  width: 16px; /* Adjust as needed */
+  height: 16px; /* Adjust as needed */
+  vertical-align: middle;
 }
